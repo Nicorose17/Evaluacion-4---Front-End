@@ -1,0 +1,57 @@
+.container {
+    width: 100%; /* Medida flexible */
+    height: auto;
+    margin: 0 auto; /* Centra el documento */
+    background-color: #fff;
+    
+}
+
+.container1 {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    float: left;
+    
+}
+
+.container2 {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    float: left;
+}
+
+.container3 {
+    background-color: #f5f5f5;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+}
+
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
